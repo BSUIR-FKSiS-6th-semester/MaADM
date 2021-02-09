@@ -67,6 +67,7 @@ namespace K_means_algorithm
             this.btnKMeans.TabIndex = 2;
             this.btnKMeans.Text = "Примениние алгоритм";
             this.btnKMeans.UseVisualStyleBackColor = true;
+            this.btnKMeans.Click += new System.EventHandler(this.btnKMeans_Click);
             // 
             // txtNumberOfShapes
             // 
